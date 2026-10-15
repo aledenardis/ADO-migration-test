@@ -17,7 +17,7 @@ jobs:
         shell: bash
         run: |
           echo "running preliminary check..."
-          CHECK_RESULT="PASS"
+          CHECK_RESULT="NOPASS"
           if [ "$CHECK_RESULT" = "PASS" ]; then
             echo "check passed"
             exit 0
